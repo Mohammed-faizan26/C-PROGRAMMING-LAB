@@ -3,12 +3,14 @@
 
 int main()
 {
-    int n=5;
-    int fact=1;
-    for(int i=1;i<=n;i++){
-    fact=fact*i;
-    }
-    printf("factorial of the n is %d\n",fact);
+
+    int a,b,sum;
+    printf("enter number 1:");
+    scanf("%d",&a);
+    printf("enter number 2:");
+    scanf("%d",&b);
+    sum =a+b;
+    printf("the sum is=%d",sum);S
 
     return 0;
 }
